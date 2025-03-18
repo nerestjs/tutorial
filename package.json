@@ -1,0 +1,21 @@
+{
+  "name": "nerest-tutorial",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch": "nerest watch",
+    "typegen": "nerest typegen",
+    "build": "nerest build"
+  },
+  "dependencies": {
+    "@nerest/nerest": "^1.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/vite-react": "^3.4.0",
+    "@types/react": "^19.0.11",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2"
+  }
+}
